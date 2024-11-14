@@ -1,0 +1,29 @@
+{
+  "name": "fsdwdtb6",
+  "version": "1.0.0",
+  "description": "Backend repo for FSDWDTB6 -- Job Portal Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvk1999/DailyFSD.git"
+  },
+  "author": "Koushik K V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvk1999/DailyFSD.git/issues"
+  },
+  "homepage": "https://github.com/kvk1999/DailyFSD#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
