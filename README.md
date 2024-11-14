@@ -170,6 +170,38 @@ For the Node.js application:
 9. Run the application using the command `node index.js`.
 10. Install express using the command `npm install express`.
 
-### MongoDB Link
+### Schema - MongoDB
 
-mongodb+srv://koushikraghavan:********@guvi.2agk8.mongodb.net/
+- A Schema defines the structure of the document.
+- A Schema is a blueprint of the document.
+
+### API Versioning
+
+- API versioning is the practice of versioning the API to manage changes in the API.
+- Example: `/api/v1/users`, `/api/v2/users`.
+
+### Status Codes
+
+- 200: OK
+- 201: Created
+- 301: Moved Permanently
+- 400: Bad Request
+- 401: Unauthorized
+- 403: Forbidden
+- 404: Not Found
+- 500: Internal Server Error
+
+## Example Data:
+
+```json
+{
+  "title": "Software Developer",
+  "description": "Developing, testing, and deploying web and mobile applications",
+  "location": "Coimbatore",
+  "salary": "100000",
+  "experience": "0-3 years",
+  "skills": ["Python", "FastAPI", "PostgreSQL", "Git", "GitHub", "AWS"]
+}
+```
+
+[POSTMAN API Documentation URL: ](https://documenter.getpostman.com/view/29191458/2sAY55bJ7g#50350010-536d-423f-ab27-b2af5383db06)
